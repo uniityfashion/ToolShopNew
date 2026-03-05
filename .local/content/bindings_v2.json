@@ -1,0 +1,73 @@
+{
+  "version": "2.0",
+  "resources": [
+    {
+      "activityDisplayName": "Download File",
+      "activityId": "DownloadFileConnections_2",
+      "resource": "Connection",
+      "key": "789a0fc7-326d-41a0-903e-736262eed7d0",
+      "id": "Connection789a0fc7-326d-41a0-903e-736262eed7d0789a0fc7-326d-41a0-903e-736262eed7d0False",
+      "value": {
+        "ConnectionId": {
+          "defaultValue": "789a0fc7-326d-41a0-903e-736262eed7d0",
+          "isExpression": false,
+          "displayName": "Connection",
+          "description": "The connection to be used"
+        }
+      },
+      "metadata": {
+        "BindingsVersion": "2.2",
+        "Connector": "uipath-google-drive",
+        "UseConnectionService": "True"
+      }
+    },
+    {
+      "activityDisplayName": "Download File",
+      "activityId": "DownloadFileConnections_2",
+      "resource": "Property",
+      "key": "789a0fc7-326d-41a0-903e-736262eed7d0.Download File",
+      "id": "Property789a0fc7-326d-41a0-903e-736262eed7d0.Download FileToolShopData.xlsxFalsehttps://docs.google.com/spreadsheets/d/1lm0KRWz4K0Lkqq36lQnmOCaIJCSIZlOU/edit?usp=drivesdk&ouid=116096112812897088420&rtpof=true&sd=trueFalse",
+      "value": {
+        "FullName": {
+          "defaultValue": "ToolShopData.xlsx",
+          "isExpression": false,
+          "displayName": "File to download",
+          "description": "The file to download"
+        },
+        "ID": {
+          "defaultValue": "https://docs.google.com/spreadsheets/d/1lm0KRWz4K0Lkqq36lQnmOCaIJCSIZlOU/edit?usp=drivesdk&ouid=116096112812897088420&rtpof=true&sd=true",
+          "isExpression": false,
+          "displayName": "File to download",
+          "description": "The URL or ID of the file to download"
+        }
+      },
+      "metadata": {
+        "BindingsVersion": "2.1",
+        "ActivityName": "Download File",
+        "ObjectName": "CuratedFile",
+        "DisplayLabel": "FullName",
+        "ParentResourceKey": "Connection.789a0fc7-326d-41a0-903e-736262eed7d0"
+      }
+    },
+    {
+      "activityDisplayName": "Send Email",
+      "activityId": "SendEmailConnections_2",
+      "resource": "Connection",
+      "key": "fe515250-5d32-466e-8465-73d4b8b88593",
+      "id": "Connectionfe515250-5d32-466e-8465-73d4b8b88593fe515250-5d32-466e-8465-73d4b8b88593False",
+      "value": {
+        "ConnectionId": {
+          "defaultValue": "fe515250-5d32-466e-8465-73d4b8b88593",
+          "isExpression": false,
+          "displayName": "Connection",
+          "description": "The connection to be used"
+        }
+      },
+      "metadata": {
+        "BindingsVersion": "2.2",
+        "Connector": "uipath-google-gmail",
+        "UseConnectionService": "True"
+      }
+    }
+  ]
+}

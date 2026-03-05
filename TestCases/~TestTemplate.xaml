@@ -176,6 +176,7 @@
       <AssemblyReference>System.Text.Json</AssemblyReference>
       <AssemblyReference>System.Windows.Forms.Design</AssemblyReference>
       <AssemblyReference>System.Collections.Immutable</AssemblyReference>
+      <AssemblyReference>GlobalVariablesT1PNoYwrqg</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
   <sap:WorkflowViewStateService.ViewState>
@@ -184,7 +185,7 @@
       <x:Boolean x:Key="ShouldExpandAll">True</x:Boolean>
     </scg:Dictionary>
   </sap:WorkflowViewStateService.ViewState>
-  <Sequence sap:VirtualizedContainerService.HintSize="948.4000000000001,3168" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence sap:VirtualizedContainerService.HintSize="948.4000000000001,5098.4" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:Int32" Name="reportIdLocal" />
       <Variable x:TypeArguments="x:String" Name="suiteName" />
@@ -201,14 +202,14 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="548.8,3144.8" sap2010:WorkflowViewState.IdRef="TryCatch_1">
+    <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="548.8,5075.2" sap2010:WorkflowViewState.IdRef="TryCatch_1">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsPinned">False</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
       <TryCatch.Try>
-        <Sequence DisplayName="Try" sap:VirtualizedContainerService.HintSize="547.2,2508.8" sap2010:WorkflowViewState.IdRef="Sequence_11">
+        <Sequence DisplayName="Try" sap:VirtualizedContainerService.HintSize="547.2,4439.2" sap2010:WorkflowViewState.IdRef="Sequence_11">
           <sap:WorkflowViewStateService.ViewState>
             <scg:Dictionary x:TypeArguments="x:String, x:Object">
               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -353,7 +354,7 @@
               </InArgument>
             </t:CheckLogIn.strSuiteId>
           </t:CheckLogIn>
-          <If sap:VirtualizedContainerService.HintSize="513.6,192" sap2010:WorkflowViewState.IdRef="If_6">
+          <If sap:VirtualizedContainerService.HintSize="513.6,661.6" sap2010:WorkflowViewState.IdRef="If_6">
             <If.Condition>
               <InArgument x:TypeArguments="x:Boolean">
                 <CSharpValue x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpValue`1_43">boolLoggediN</CSharpValue>
@@ -366,7 +367,7 @@
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
             <If.Then>
-              <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="449.6,24.8" sap2010:WorkflowViewState.IdRef="Sequence_16">
+              <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="449.6,233.6" sap2010:WorkflowViewState.IdRef="Sequence_16">
                 <sap:WorkflowViewStateService.ViewState>
                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                     <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -382,7 +383,7 @@
               </Sequence>
             </If.Then>
             <If.Else>
-              <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="449.6,24.8" sap2010:WorkflowViewState.IdRef="Sequence_17">
+              <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="449.6,285.6" sap2010:WorkflowViewState.IdRef="Sequence_17">
                 <sap:WorkflowViewStateService.ViewState>
                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                     <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -408,8 +409,8 @@
               </Sequence>
             </If.Else>
           </If>
-          <ui:Comment sap:VirtualizedContainerService.HintSize="513.6,92" sap2010:WorkflowViewState.IdRef="Comment_2" Text="// Enter your activities here&#xA;" />
-          <If sap:VirtualizedContainerService.HintSize="513.6,748" sap2010:WorkflowViewState.IdRef="If_7">
+          <ui:Comment sap:VirtualizedContainerService.HintSize="513.6,88" sap2010:WorkflowViewState.IdRef="Comment_2" Text="// Enter your activities here&#xA;" />
+          <If sap:VirtualizedContainerService.HintSize="513.6,2212.8" sap2010:WorkflowViewState.IdRef="If_7">
             <If.Condition>
               <InArgument x:TypeArguments="x:Boolean">
                 <CSharpValue x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpValue`1_48">intReportId==0</CSharpValue>
@@ -422,14 +423,14 @@
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
             <If.Then>
-              <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="512,589.6" sap2010:WorkflowViewState.IdRef="Sequence_13">
+              <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="512,1984.8" sap2010:WorkflowViewState.IdRef="Sequence_13">
                 <sap:WorkflowViewStateService.ViewState>
                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                     <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                     <x:Boolean x:Key="IsPinned">False</x:Boolean>
                   </scg:Dictionary>
                 </sap:WorkflowViewStateService.ViewState>
-                <ui:MultipleAssign DisplayName="Multiple Assign" sap:VirtualizedContainerService.HintSize="478.4,60.8" sap2010:WorkflowViewState.IdRef="MultipleAssign_2">
+                <ui:MultipleAssign DisplayName="Multiple Assign" sap:VirtualizedContainerService.HintSize="478.4,216" sap2010:WorkflowViewState.IdRef="MultipleAssign_2">
                   <ui:MultipleAssign.AssignOperations>
                     <scg:List x:TypeArguments="ui:AssignOperation" Capacity="4">
                       <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_4">
@@ -471,7 +472,7 @@
                     </scg:List>
                   </ui:MultipleAssign.AssignOperations>
                 </ui:MultipleAssign>
-                <If sap:VirtualizedContainerService.HintSize="478.4,60.8" sap2010:WorkflowViewState.IdRef="If_8">
+                <If sap:VirtualizedContainerService.HintSize="478.4,609.6" sap2010:WorkflowViewState.IdRef="If_8">
                   <If.Condition>
                     <InArgument x:TypeArguments="x:Boolean">
                       <CSharpValue x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpValue`1_52">latestFolder != null</CSharpValue>
@@ -518,7 +519,7 @@
                     </Sequence>
                   </If.Else>
                 </If>
-                <Assign sap:VirtualizedContainerService.HintSize="478.4,60.8" sap2010:WorkflowViewState.IdRef="Assign_6">
+                <Assign sap:VirtualizedContainerService.HintSize="478.4,178.4" sap2010:WorkflowViewState.IdRef="Assign_6">
                   <Assign.To>
                     <OutArgument x:TypeArguments="x:String">
                       <CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_19">reportLocation</CSharpReference>
@@ -530,14 +531,14 @@
                     </InArgument>
                   </Assign.Value>
                 </Assign>
-                <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="478.4,60.8" sap2010:WorkflowViewState.IdRef="LogMessage_6" Level="Info">
+                <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="478.4,178.4" sap2010:WorkflowViewState.IdRef="LogMessage_6" Level="Info">
                   <ui:LogMessage.Message>
                     <InArgument x:TypeArguments="x:Object">
                       <CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_56">"assign "</CSharpValue>
                     </InArgument>
                   </ui:LogMessage.Message>
                 </ui:LogMessage>
-                <uga:SendEmailConnections ArgumentAttachmentPaths="{x:Null}" ArgumentAttachments="{x:Null}" AttachmentPaths="{x:Null}" Bcc="{x:Null}" Cc="{x:Null}" ConnectionAccountName="{x:Null}" ContinueOnError="{x:Null}" ReplyTo="{x:Null}" SingleAttachment="{x:Null}" TextBody="{x:Null}" AttachmentInputMode="UseExisting" AuthScopesInvalid="False" ConnectionId="fe515250-5d32-466e-8465-73d4b8b88593" DisplayName="Send Email" sap:VirtualizedContainerService.HintSize="478.4,60.8" sap2010:WorkflowViewState.IdRef="SendEmailConnections_2" Importance="Normal" InputType="HTML" SaveAsDraft="True" Subject="Test case execution report" UseConnectionService="True">
+                <uga:SendEmailConnections ArgumentAttachmentPaths="{x:Null}" ArgumentAttachments="{x:Null}" AttachmentPaths="{x:Null}" Bcc="{x:Null}" Cc="{x:Null}" ConnectionAccountName="{x:Null}" ContinueOnError="{x:Null}" ReplyTo="{x:Null}" SingleAttachment="{x:Null}" TextBody="{x:Null}" AttachmentInputMode="UseExisting" AuthScopesInvalid="False" ConnectionId="fe515250-5d32-466e-8465-73d4b8b88593" DisplayName="Send Email" sap:VirtualizedContainerService.HintSize="478.4,516.8" sap2010:WorkflowViewState.IdRef="SendEmailConnections_2" Importance="Normal" InputType="HTML" SaveAsDraft="True" Subject="Test case execution report" UseConnectionService="True">
                   <uga:SendEmailConnections.Attachments>
                     <InArgument x:TypeArguments="scg:IEnumerable(upr:IResource)">
                       <CSharpValue x:TypeArguments="scg:IEnumerable(upr:IResource)" sap2010:WorkflowViewState.IdRef="CSharpValue`1_59">new List&lt;UiPath.Platform.ResourceHandling.IResource&gt; { UiPath.Platform.ResourceHandling.LocalResource.FromPath(reportLocation) }</CSharpValue>
@@ -583,7 +584,7 @@
               </Sequence>
             </If.Then>
             <If.Else>
-              <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="512,24.8" sap2010:WorkflowViewState.IdRef="Sequence_20">
+              <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="512,94.4" sap2010:WorkflowViewState.IdRef="Sequence_20">
                 <sap:WorkflowViewStateService.ViewState>
                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                     <x:Boolean x:Key="IsExpanded">True</x:Boolean>
